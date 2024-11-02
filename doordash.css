@@ -18,7 +18,7 @@
     padding: 0px;
   }
   .text p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     font-family: var(--usage-type-body-small-default-font-family), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #606060ff;
@@ -187,10 +187,10 @@ header {
     color: white;
   }
   .open-app span{
-    transform: translateY(-5px); 
+    transform: translateY(-5px); /* Adjust the value as needed */
 }
    .open-app {
-  transform: translateY(-15px);
+  transform: translateY(-15px); /* Adjust the value as needed */
 }
 
 
@@ -710,7 +710,7 @@ header {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-     
+      /* width: 250px; */
     }
   
     .dash-content h2 {
@@ -736,24 +736,33 @@ header {
   
   .part3 {
     width: 100%;
-    
+    /* margin-bottom: -300px; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .pizza1 {
     width: 100%;
     padding: 20px;
-   
+    /* max-width: 1200px; */
     margin: auto;
   }
   
-  .pizza-img { 
+  .pizza-img {
+    /* width: 374PX; */
+    /* height: 280px; */
     overflow: hidden;
+    /* height: 180px; */
+    /* height: 500px; */
+    /* width: 463px; */
     object-fit: cover;
   }
   
   .pizza-img img {
     width: 100%;
+    /* position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
   }
   
   .item h2 {
@@ -782,7 +791,7 @@ header {
   }
   
   .item button {
-    font-size: 14px;
+    font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif(--font-bold);
     color: white;
     background-color: #eb1700;
@@ -797,6 +806,7 @@ header {
     .pizza1 {
       display: flex;
       flex-direction: row-reverse;
+      /* height: 100%; */
       align-items: center;
       justify-content: center;
       gap: 60px;
@@ -804,11 +814,15 @@ header {
   
     .part3 {
       display: flex;
+      /* margin-bottom: -60px;
+      height: 544px; */
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
   
     .pizza-img {
-    
+      /* height: 100%; */
+      /* width: 90%; */
+    }
   
     .pizza-img img {
       height: 100%;
@@ -816,8 +830,8 @@ header {
     }
   
     .item h2 {
-      font-size: 40px;
-      line-height: 39px;
+      font-size: 35px;
+      line-height: 35px;
       margin-bottom: 20px;
     }
   
@@ -827,7 +841,7 @@ header {
     }
   
     .item p {
-      font-size: 14px;
+      font-size: 18px;
       margin-bottom: 10px;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif(--font-medium);
       line-height: 22px;
@@ -852,10 +866,12 @@ header {
   }
   
   .pass1 {
+    /* max-width: 1200px; */
     margin: auto;
   }
   
   .pass-img {
+    /* width: 374px; */
     height: 180px;
     overflow: hidden;
     object-fit: cover;
@@ -921,15 +937,16 @@ header {
   
     .pass2 h2 {
       font-size: 40px;
-      width: 70%;
+      width: 91%;
       line-height: 39px;
       margin-bottom: 20px;
     }
   
     .pass2 p {
-      font-size: 16px;
+      font-size: 20px;
+      font-weight: 500;
       margin-bottom: 10px;
-      font-family: var(--font-medium);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       line-height: 22px;
     }
   
@@ -1006,16 +1023,19 @@ header {
   
     .part5 h2 {
       font-size: 33px;
+      /* width: 495px; */
       line-height: 41px;
     }
   
     .part5 h3 {
       font-size: 17px;
+      /* width: 495px; */
       margin-top: 20px;
     }
   
     .part5 p {
       font-size: 12px;
+      /* width: 550px; */
       margin-top: 10px;
     }
   
